@@ -1,0 +1,78 @@
+/* General styles for the verification page */
+.verify-token-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #141e30, #243b55); /* Fondo degradado oscuro */
+}
+
+.verify-token-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #243b55;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  background-color: #ffcccc;
+  color: #e60000;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e60000;
+  border-radius: 5px;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.verify-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #243b55;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.verify-btn:hover {
+  background-color: #141e30;
+}
+
+.resend-token {
+  margin-top: 1rem;
+  color: #666;
+}
+
+.resend-token span {
+  color: #243b55;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.resend-token span:hover {
+  color: #141e30;
+}
